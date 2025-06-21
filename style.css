@@ -20,6 +20,7 @@ body button{
 .main {
     background-color:	#cccccc;
     height: 85vh;
+    width: 100%;
     margin: 3%;
     padding: 1%;
     border-radius: 5vh; /* ← more “average” 圓角 */
@@ -45,6 +46,7 @@ body button{
     border-radius: 1px;
 }
 #clock-Text{
+    font-weight: bold;
     width: 100%;
     text-align: center;
     font-size: 30vh;
