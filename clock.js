@@ -3,11 +3,11 @@ let isFullScreen = false;
 function fullscreen() {
     if (!isFullScreen) {
         document.documentElement.requestFullscreen({ navigationUI: "hide" });
-        document.getElementById("FullScrButton").innerHTML = '<img src="fullscreen.svg" alt="fullscreen" height="30vw" width="30vw" />';
+        document.getElementById("FullScrButton").innerHTML = '<img src="fullscreen_exit.svg" alt="fullscreen" height="30vw" width="30vw" />';
         isFullScreen = true;
     } else {
         document.exitFullscreen();
-        document.getElementById("FullScrButton").innerHTML = '<img src="fullscreen_exit.svg" alt="fullscreen" height="30vw" width="30vw" />';
+        document.getElementById("FullScrButton").innerHTML = '<img src="fullscreen.svg" alt="fullscreen" height="30vw" width="30vw" />';
         isFullScreen = false;
     }
 }
