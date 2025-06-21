@@ -17,9 +17,7 @@ body button{
 .main {
     background-color:	#cccccc;
     height: 85vh;
-    margin-top: 4%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: 3%;
     padding: 1%;
     padding-top: 0;
     border-radius: 5vh; /* ← more “average” 圓角 */
