@@ -19,7 +19,6 @@ body button{
     height: 85vh;
     margin: 3%;
     padding: 1%;
-    padding-top: 0;
     border-radius: 5vh; /* ← more “average” 圓角 */
 }
 .material-symbols-outlined {
@@ -32,7 +31,7 @@ body button{
 #TitleText {
     font-size: 12vh;
     color: #7f0019;
-    padding-top: 5vh;
+    padding-top: 8vh;
     font-family: 'Lora', serif;
 }
 .underline {
