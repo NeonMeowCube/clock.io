@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="style.css">
+            <script src="clock.js"></script>
+            <title>Clock</title>
+        </head>
+        <body onload="setInterval(updateClock, 50)">
+            <div class="main">
+                <p id="TitleText">而家係</p>
+                <br>
+                <div class="underline"></div>
+                <br>
+                <p id="clock-Text">00000</p>
+                <br>
+                 <button onclick="fullscreen()" id="FullScrButton" class="material-symbols-outlined"><img src="fullscreen.svg" alt="fullscreen" height="30vw" width="30vw" /></button>
+            </div>
+        </body>
+    </html>

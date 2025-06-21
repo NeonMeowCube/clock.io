@@ -1,0 +1,54 @@
+@import url(reset.css);
+@import 'https://fonts.googleapis.com/css?family=Lora:700';
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:100,400,900');
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #faf7eb;
+    padding: 0;
+    margin: 0;
+}
+body button{
+    background:transparent;
+    border:none;
+}
+.main {
+    background-color:	#cccccc;
+    height: 85vh;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 1%;
+    padding-top: 0;
+    border-radius: 5vh; /* ← more “average” 圓角 */
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+#TitleText {
+    font-size: 12vh;
+    color: #7f0019;
+    padding-top: 5vh;
+    font-family: 'Lora', serif;
+}
+.underline {
+    width: 100%;
+    height: 0.2vw;
+    background-color: rgba(127, 0, 25, 0.3);
+    margin-top: 0.5vh;
+    border-radius: 1px;
+}
+#clock-Text{
+    width: 100%;
+    text-align: center;
+    font-size: 30vh;
+    color: #7f0019;
+    padding-top: 15vh;
+    font-family: 'Lora', serif;
+}
